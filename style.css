@@ -2,3 +2,11 @@ body { /* I know this is not the best way but it is temporary */
   background:#000;
   color:#fff;
 }
+
+a {
+  color:#88f;
+}
+
+a:visited {
+  color:#f8f;
+}
