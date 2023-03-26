@@ -1,2 +1,1 @@
-# webbed-site
-my .github.io site, possibly
+https://starchyunderscore.github.io/webbed-site/
