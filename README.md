@@ -1,1 +1,1 @@
-https://starchyunderscore.github.io/webbed-site/
+https://starchyunderscore.github.io
