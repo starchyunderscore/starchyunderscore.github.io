@@ -97,7 +97,7 @@ div.codeblock {
     margin:.8rem auto;
     overflow-x:auto;
 }
-div.codeblock>pre {
+div.codeblock>code>pre {
     padding:.5rem;
     font:monospace;
     color:var(--txt-clr);
