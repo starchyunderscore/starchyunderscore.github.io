@@ -164,4 +164,6 @@ footer>div {
 }
 .img-copynotice {
     text-align:center;
+    max-width:80%;
+    margin:auto;
 }
