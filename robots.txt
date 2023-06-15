@@ -1,0 +1,3 @@
+Sitemap: https://starchyunderscore.github.io/sitemap.xml
+User-Agent: *
+Allow: /
