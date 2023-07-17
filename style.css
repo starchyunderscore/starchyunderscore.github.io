@@ -129,6 +129,9 @@ hr {
     border:none;
     border-top:.3rem ridge #fff;
 }
+header>hr {
+    margin-top:-1rem;
+}
 article ul {
     width:70%;
     margin:auto;
