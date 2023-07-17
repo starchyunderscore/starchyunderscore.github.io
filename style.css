@@ -39,6 +39,7 @@ header {
     top:0;
     left:0;
     width:100%;
+    background:var(--bkg);
     height:var(--topbar-height);
 }
 a.skip {
@@ -55,7 +56,6 @@ a.skip:focus-visible {
 }
 /* CONTENT */
 article#body {
-    padding-top:var(--topbar-height);
     width:95%;
     max-width:60rem;
     background:var(--bkg);
