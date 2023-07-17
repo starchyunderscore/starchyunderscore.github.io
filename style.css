@@ -9,6 +9,7 @@
     --a-vis:#a8f;
     --a-actv:#f88;
     --fnt-small:.8em;
+    --topbar-height:4rem;
 }
 body {
     background:var(--bkg);
@@ -33,6 +34,13 @@ body {
         --a-actv:#fcc;
     }
 }
+header {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:var(--topbar-height);
+}
 a.skip {
     position:fixed;
     left:-20em;
@@ -47,6 +55,7 @@ a.skip:focus-visible {
 }
 /* CONTENT */
 article#body {
+    padding-top:var(--topbar-height);
     width:95%;
     max-width:60rem;
     background:var(--bkg);
