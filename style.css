@@ -60,6 +60,7 @@ article#body {
     max-width:60rem;
     background:var(--bkg);
     margin:auto;
+    padding-top:var(--topbar-height);
 }
 h1.page-header {
     text-align:center;
