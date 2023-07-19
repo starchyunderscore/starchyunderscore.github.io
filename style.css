@@ -11,10 +11,12 @@
     --fnt-small:.8rem;
     --topbar-height:4rem;
 }
+html, body {
+    overscroll-behavior: none;
+}
 body {
     background:var(--bkg);
     margin:0;
-    overscroll-behavior: none;
 }
 /* ACCESSIBILITY */
 *:focus-visible {
