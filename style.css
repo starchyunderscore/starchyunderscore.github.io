@@ -147,6 +147,16 @@ article>ul {
 ul {
     color:var(--txt-clr);
     font-size:var(--fnt-size);
+    list-style-type: disc;
+}
+ul ul {
+    list-style-type: circle;
+}
+ul ul ul {
+    list-style-type: disc;
+}
+ul ul ul ul { /* If I ever nest more than four lists... well... */
+    list-style-type: circle;
 }
 /* FOOTER */
 footer {
