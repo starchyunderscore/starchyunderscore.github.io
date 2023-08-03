@@ -34,6 +34,7 @@ body {
         --a-actv:#fcc;
     }
 }
+/* HEADER */
 header {
     position:fixed;
     top:0;
@@ -42,6 +43,7 @@ header {
     background:var(--bkg);
     height:var(--topbar-height);
 }
+/* Navigation styles */ 
 a.skip {
     position:fixed;
     left:-20rem;
@@ -54,6 +56,13 @@ a.skip {
 a.skip:focus-visible {
     left:1rem;
 }
+nav.navigation-bar {
+    width:95%;
+    max-width:60rem;
+    margin:1rem auto 2rem;
+    display:flex;
+    justify-content:space-evenly;
+}
 /* CONTENT */
 article#body {
     width:95%;
@@ -62,6 +71,7 @@ article#body {
     margin:auto;
     padding-top:var(--topbar-height);
 }
+/* Main text styles */
 h1.page-header {
     text-align:center;
     color:var(--txt-clr);
@@ -84,6 +94,7 @@ text {
     color:var(--txt-clr);
     font-size:var(--fnt-small);
 }
+/* Link styles */
 a {
     font-size:var(--fnt-size);
     color:var(--a-unvis);
@@ -100,6 +111,10 @@ a:active {
 text>a {
     font-size:var(--fnt-small);
 }
+a[target="_blank"]::after {
+    content:" ⤤";
+}
+/* Codeblock styles */
 div.codeblock {
     border:2px solid #333;
     border-radius:.5rem;
@@ -113,16 +128,7 @@ div.codeblock>code>pre {
     color:var(--txt-clr);
     font-size:var(--fnt-size);
 }
-a[target="_blank"]::after {
-    content:" ⤤";
-} 
-nav.navigation-bar {
-    width:95%;
-    max-width:60rem;
-    margin:1rem auto 2rem;
-    display:flex;
-    justify-content:space-evenly;
-}
+/* hr stylse */
 hr {
     width:70%;
     max-width:60rem;
@@ -133,6 +139,7 @@ hr {
 header>hr {
     margin-top:-1rem;
 }
+/* List styles */
 article>ul {
     width:70%;
     margin:auto;
@@ -141,6 +148,7 @@ ul {
     color:var(--txt-clr);
     font-size:var(--fnt-size);
 }
+/* FOOTER */
 footer {
     width:70%;
     max-width:60rem;
@@ -151,7 +159,7 @@ footer {
 footer>div {
     width:100%;
 }
-/* IMAGE ZOOM */
+/* IMAGE CONTAINER */
 .click-img-container {
     width:100%;
     display:flex;
