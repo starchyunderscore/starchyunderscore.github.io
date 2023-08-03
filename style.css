@@ -133,7 +133,7 @@ hr {
 header>hr {
     margin-top:-1rem;
 }
-article ul {
+article>ul {
     width:70%;
     margin:auto;
 }
