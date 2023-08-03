@@ -6,4 +6,10 @@
       <changefreq>never</changefreq>
       <priority>0.2</priority>
    </url>
+   <url>
+      <loc>https://starchyunderscore.github.io/blog/2023/08/03/reccomended-software</loc>
+      <lastmod>2023-08-03</lastmod>
+      <changefreq>never</changefreq>
+      <priority>0.2</priority>
+   </url>
 </urlset>
