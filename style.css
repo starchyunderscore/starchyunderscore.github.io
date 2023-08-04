@@ -56,12 +56,17 @@ a.skip {
 a.skip:focus-visible {
     left:1rem;
 }
-nav.navigation-bar {
+#navbar {
     width:95%;
     max-width:60rem;
     margin:1rem auto 2rem;
     display:flex;
     justify-content:space-evenly;
+}
+#navbar>a { /* compatibility with browsers that do not support flexbox */
+    display: inline-block;
+    width: 24.6%;
+    text-align: center;
 }
 /* CONTENT */
 article#body {
@@ -167,7 +172,8 @@ footer {
     justify-content:stretch;
 }
 footer>div {
-    width:100%;
+    display:inline-block;
+    width:49.7%; /* fallback for if a browser doesn't support flexboxes */
 }
 /* IMAGE CONTAINER */
 .click-img-container {
