@@ -62,7 +62,7 @@ a.skip:focus-visible {
     display:flex;
     justify-content:space-evenly;
 }
-#navbar>a:not(:first-of-type) { /* compatibility with browsers that do not support flexbox */
+#navbar>span { /* compatibility with browsers that do not support flexbox */
     display: inline-block;
     width: 24%;
     text-align: center;
