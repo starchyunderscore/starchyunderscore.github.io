@@ -49,7 +49,6 @@ a.skip {
     left:-20rem;
     top:1rem;
     font-size:1.5rem;
-    padding:.3rem;
     background:var(--bkg);
     
 }
@@ -63,9 +62,9 @@ a.skip:focus-visible {
     display:flex;
     justify-content:space-evenly;
 }
-#navbar>a { /* compatibility with browsers that do not support flexbox */
+#navbar>a:not(:first-of-type) { /* compatibility with browsers that do not support flexbox */
     display: inline-block;
-    width: 24.6%;
+    width: 24%;
     text-align: center;
 }
 /* CONTENT */
@@ -173,7 +172,7 @@ footer {
 }
 footer>div {
     display:inline-block;
-    width:49.7%; /* fallback for if a browser doesn't support flexboxes */
+    width:49%; /* fallback for if a browser doesn't support flexboxes */
 }
 /* IMAGE CONTAINER */
 .click-img-container {
